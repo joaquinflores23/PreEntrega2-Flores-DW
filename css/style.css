@@ -1,0 +1,148 @@
+/*reglas generales */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #F8F9FA;
+}
+
+/* reglas color texto */
+
+h1, h2, h3, h4, h5{
+    color: #212529;
+}
+
+/* reglas parrafos */
+p{
+    color: #343A40;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    text-align: justify;
+}
+
+/* reglas header */
+
+header{
+    background-color: #ADB5BD;
+    padding: 10px;   
+}
+
+header nav ul li a{
+    color: #212529;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 2px;
+
+}
+header nav ul li{
+    padding: 5px;
+}
+
+
+header nav ul{
+    list-style-type: none;
+}
+
+/* reglas main */
+main{
+    text-align: center;
+}
+
+iframe{
+    margin: 20px;
+}
+
+/* rglas section */
+section{
+    text-align: center;
+}
+section div ul{
+    padding: 2px 20px 2px 20px;
+    list-style-type: circle;
+}
+
+section div ul li{
+    color: #343A40;
+    text-align: left;
+    padding: 7px 0 7px 0;
+}
+
+
+/* relgas footer */
+footer{
+    background-color: #ADB5BD;
+    text-align: center;
+    padding: 15px;
+}
+footer a i {
+    color: #343A40;
+}
+footer p{
+    text-align: center;
+    font-size: smaller;
+}
+
+/* iDs */
+
+#titulo-principal{
+    font-size: 40px;
+}
+
+/* clases */
+.curiosidad{
+    background-color: #E9ECEF;
+}
+
+.contexto{
+    background-color: #DEE2E6;
+    padding: 20px;
+}
+
+.curiosidad, .contexto{
+    padding: 20px;
+}
+
+.main-txt{
+    padding: 30px;
+}
+
+.main-txt h1{
+    padding: 10px;
+
+}
+
+.main-txt p{
+    padding: 5px;
+}
+
+.peli-1{
+    background-color: #E9ECEF;
+}
+
+.peli-2{
+    background-color: #DEE2E6;
+}
+
+.peli-1, .peli-2{
+    padding: 30px 0 10px 0;
+    
+}
+.peli-1 p, .peli-2 p{
+    text-align: center;
+}
+
+.peli-1 h2, .peli-2 h2, .contexto h2, .curiosidad h2{
+    padding: 10px 0 20px 0;    
+}
+
+.peli-1 h3, .peli-2 h3{
+    padding: 7px 0 0 0;
+}
+
+.peli-1 p, .peli-2 p, .contexto p, .curiosidad p{
+    padding: 2px;
+}
+
