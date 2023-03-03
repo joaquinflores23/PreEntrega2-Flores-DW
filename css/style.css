@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif !important;
     background-color: #F8F9FA;
 }
 
@@ -25,26 +25,21 @@ p{
 
 /* reglas header */
 
-header{
-    background-color: #ADB5BD;
-    padding: 10px;   
-}
-
-header nav ul li a{
-    color: #212529;
+.navbar-nav a{
+    color: #212529 !important;
     font-weight: bolder;
-    text-decoration: none;
-    padding: 2px;
-
-}
-header nav ul li{
-    padding: 5px;
 }
 
-
-header nav ul{
-    list-style-type: none;
+.container-fluid{
+    align-items: end !important;
 }
+.navbar-collapse{
+    flex-grow: 0;
+}
+.navbar{
+    background-color: #ADB5BD !important;
+}
+
 
 /* reglas main */
 main{
