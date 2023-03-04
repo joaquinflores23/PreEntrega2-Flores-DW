@@ -68,16 +68,14 @@ section div ul li{
 
 /* relgas footer */
 footer{
-    background-color: #ADB5BD;
-    text-align: center;
-    padding: 15px;
+    background-color: #ADB5BD !important;
+    padding: 20px;
 }
 footer a i {
     color: #343A40;
 }
 footer p{
-    text-align: center;
-    font-size: smaller;
+    font-size: small;
 }
 
 /* iDs */
