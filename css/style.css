@@ -17,9 +17,9 @@ h1, h2, h3, h4, h5{
 }
 
 /* reglas parrafos */
+
 p{
     color: #343A40;
-    /* line-height: 25px; */
     letter-spacing: 0.3px;
     text-align: justify;
 }
@@ -41,24 +41,17 @@ p{
     background-color: #ADB5BD !important;
 }
 
-
 /* reglas main */
 
-
-iframe{
-    margin: 20px;
+#carouselImagenes{
+    background-color: #E9ECEF;
 }
 
-.main-txt h1{
-    padding: 10px;
+/* iframe{min-height:100vh;
+} */
 
-}
+/* reglas section */
 
-.main-txt p{
-    padding: 5px;
-}
-
-/* rglas section */
 section{
     text-align: center;
 }
@@ -75,6 +68,7 @@ section div ul li{
 
 
 /* relgas footer */
+
 footer{
     background-color: #ADB5BD !important;
     }
@@ -86,6 +80,7 @@ footer p{
 }
 
 /* clases */
+
 .curiosidad{
     background-color: #E9ECEF;
 }
