@@ -13,12 +13,13 @@ body{
 
 h1, h2, h3, h4, h5{
     color: #212529;
+    font-weight: 500 !important;
 }
 
 /* reglas parrafos */
+
 p{
     color: #343A40;
-    line-height: 25px;
     letter-spacing: 0.3px;
     text-align: justify;
 }
@@ -40,17 +41,14 @@ p{
     background-color: #ADB5BD !important;
 }
 
-
 /* reglas main */
-main{
-    text-align: center;
+
+#carouselImagenes{
+    background-color: #E9ECEF;
 }
 
-iframe{
-    margin: 20px;
-}
+/* reglas section */
 
-/* rglas section */
 section{
     text-align: center;
 }
@@ -67,6 +65,7 @@ section div ul li{
 
 
 /* relgas footer */
+
 footer{
     background-color: #ADB5BD !important;
     }
@@ -77,13 +76,8 @@ footer p{
     font-size: small;
 }
 
-/* iDs */
-
-#titulo-principal{
-    font-size: 40px;
-}
-
 /* clases */
+
 .curiosidad{
     background-color: #E9ECEF;
 }
@@ -95,19 +89,6 @@ footer p{
 
 .curiosidad, .contexto{
     padding: 20px;
-}
-
-.main-txt{
-    padding: 30px;
-}
-
-.main-txt h1{
-    padding: 10px;
-
-}
-
-.main-txt p{
-    padding: 5px;
 }
 
 .peli-1{
@@ -137,4 +118,3 @@ footer p{
 .peli-1 p, .peli-2 p, .contexto p, .curiosidad p{
     padding: 2px;
 }
-
