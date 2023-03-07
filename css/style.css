@@ -76,6 +76,7 @@ footer{
     }
 footer a i {
     color: #343A40;
+    font-size: 1.5rem;
 }
 footer p{
     font-size: small;
