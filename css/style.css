@@ -64,6 +64,8 @@ section div ul li{
     padding: 7px 0 7px 0;
 }
 
+
+
 .peli-1 p, .peli-2 p{
     text-align: center;
 }
@@ -103,10 +105,12 @@ footer p{
     padding: 20px;
 }
 
-.peli-1 h2, .peli-2 h2, .contexto h2, .curiosidad h2{
+.contexto h2, .curiosidad h2{
     padding: 10px 0 20px 0;    
 }
 
 .contexto p, .curiosidad p{
     padding: 2px;
 }
+
+/* .peli-1 h2, .peli-2 h2,  */
