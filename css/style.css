@@ -14,6 +14,7 @@ body{
 h1, h2, h3, h4, h5{
     color: #212529;
     font-weight: 500 !important;
+    text-align: center;
 }
 
 /* reglas parrafos */
@@ -22,6 +23,7 @@ p{
     color: #343A40;
     letter-spacing: 0.3px;
     text-align: justify;
+    line-height: 1.8;
 }
 
 /* reglas header */
@@ -49,19 +51,10 @@ p{
 
 /* reglas section */
 
-section{
-    text-align: center;
-}
-
-section div ul{
-    padding: 2px 20px 2px 20px;
-    list-style-type: circle;
-}
 
 section div ul li{
-    color: #343A40;
+    color: #343A40 !important;
     text-align: left;
-    padding: 7px 0 7px 0;
 }
 
 .peli-1 p, .peli-2 p{
@@ -83,6 +76,7 @@ footer{
     }
 footer a i {
     color: #343A40;
+    font-size: 1.5rem;
 }
 footer p{
     font-size: small;
@@ -90,23 +84,10 @@ footer p{
 
 /* clases */
 
-.curiosidad{
+.curiosidad, .lista{
     background-color: #E9ECEF;
 }
 
 .contexto{
     background-color: #DEE2E6;
-    padding: 20px;
-}
-
-.curiosidad, .contexto{
-    padding: 20px;
-}
-
-.peli-1 h2, .peli-2 h2, .contexto h2, .curiosidad h2{
-    padding: 10px 0 20px 0;    
-}
-
-.contexto p, .curiosidad p{
-    padding: 2px;
 }
